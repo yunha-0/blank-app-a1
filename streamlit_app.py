@@ -34,3 +34,8 @@ st.markdown("""
 - **거미**
 - **다리 다섯개 이상인 것**
 """)
+
+st.sidebar.header("사이드바")
+st.sidebar.write("사이드바에 위젯도 넣을 수 있습니다.")
+sidebar_option = st.sidebar.radio("사이드바 선택", ["A", "B", "C"])
+st.sidebar.write("사이드바에서 선택됨:", sidebar_option)
